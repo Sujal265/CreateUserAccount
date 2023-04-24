@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context=".LoggedIn"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/LoginWelcome"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="welcome"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LoginName"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:text="Name: Demo Name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/LoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        android:text="Email: Demo Email"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+                android:id="@+id/LoginPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_margin="10dp"
+                android:text="Phone: Demo Phone"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+    <Button
+            android:id="@+id/LogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FF5722"
+            android:text="Log Out"
+            android:textSize="18sp" />
+
+
+</LinearLayout>

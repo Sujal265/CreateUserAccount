@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539449526442",
+    "project_id": "createuseraccount-34a32",
+    "storage_bucket": "createuseraccount-34a32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539449526442:android:3f257ff3e92e48b936a8d3",
+        "android_client_info": {
+          "package_name": "com.example.createuseraccount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539449526442-7sptmfm63saeav0jmcskg7r7961ujheo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9yS2nf9N8EKCe8d9ckqfZQWB6-7_itTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539449526442-7sptmfm63saeav0jmcskg7r7961ujheo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
